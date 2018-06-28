@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AboutUsActivity">
+
+    <TextView
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000000"
+        android:text="Our mission is to provide a free, worldclass education and training to all the seekers about Biostatistics, Research and all Medical and Dental related tools including SPSS, Endnote, Mendeley, MS Office, writing research projects, publication of Original articles. Also providing books and diffrent materials on multiple subjects Sikander Academy offers practice exercises, instructional and educational videos, and a personalized learning cum certification program that empower learners to study at their own pace and acquire certificates on completion of desiring courses. For free. For everyone."
+        />
+
+</ScrollView>

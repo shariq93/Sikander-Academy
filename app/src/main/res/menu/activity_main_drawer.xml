@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group >
+        <item android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@drawable/ic_aboutus"/>
+    </group>
+
+    <group>
+        <item android:id="@+id/nav_dictionary"
+            android:icon="@drawable/ic_dictionary"
+            android:title="Dictionary"
+            android:visible="false"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/nav_pastpapers"
+            android:icon="@drawable/ic_handouts"
+            android:title="Past Papers"
+            android:visible="true"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/nav_handouts"
+            android:icon="@drawable/ic_dictionary"
+            android:title="Handouts"
+            android:visible="true"
+            />
+    </group>
+
+
+    <group >
+        <item android:id="@+id/nav_books"
+            android:title="Books"
+            android:icon="@drawable/ic_book"/>
+    </group>
+
+
+
+
+    <group >
+        <item android:id="@+id/nav_rateus"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_rateus"/>
+    </group>
+
+    <group android:id="@+id/group_nav_logout" >
+        <item android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:visible="false"
+            android:icon="@drawable/ic_search"/>
+    </group>
+
+</menu>

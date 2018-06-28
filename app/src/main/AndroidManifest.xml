@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.com.sikanderacademy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/skapp_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/skapp_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.TopicsActivity"
+            android:label="Topics" />
+        <activity
+            android:name=".activities.SubTopicActivity"
+            android:label="Lessons" />
+        <activity
+            android:name=".activities.LessonActivity"
+            android:label="Lesson" />
+        <activity
+            android:name=".activities.WebViewActivity"
+            android:label="Books" />
+        <activity
+            android:name=".activities.SearchActivity"
+            android:label="Search" />
+        <activity
+            android:name=".activities.ShowBookActivity"
+            android:label="Books" />
+        <activity
+            android:name=".activities.DictionaryActivity"
+            android:label="Dictionary" />
+        <activity android:name=".activities.AboutUsActivity"
+            android:label="About Us" ></activity>
+    </application>
+
+</manifest>
