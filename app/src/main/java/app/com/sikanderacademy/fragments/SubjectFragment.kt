@@ -47,7 +47,7 @@ class SubjectFragment : Fragment() {
         val list = Chapter.find(Chapter::class.java,"subject_id=$id")
         val adapter = ChaptersListAdapter(context,list)
         view.lv_titles.adapter = adapter
-        val adRequest = AdRequest.Builder().build()
+        val adRequest = AdRequest.Builder().addTestDevice("B40037E56E469CB1C0885A1422537769").build()
         view.adView.loadAd(adRequest)
         return view
     }

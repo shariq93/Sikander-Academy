@@ -45,6 +45,7 @@ class SplashActivity : AppCompatActivity() {
     fun getEveryThing() {
 
         val client = AsyncHttpClient()
+        client.setTimeout(1000*60*5)
         client.get("http://sikanderacademy.com/admin/app_service.php?tab=get_everything", object : JsonHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Array<out Header>?, response: JSONObject?) {
                 super.onSuccess(statusCode, headers, response)

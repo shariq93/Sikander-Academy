@@ -52,9 +52,9 @@ class LessonActivity : YouTubeBaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson)
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = getString(R.string.lesson_full_add)
-        mInterstitialAd.loadAd(AdRequest.Builder().build())
-        val adRequest = AdRequest.Builder().build()
+        mInterstitialAd.adUnitId = "ca-app-pub-1109439098014642/2617663941"
+        mInterstitialAd.loadAd(AdRequest.Builder().addTestDevice("B40037E56E469CB1C0885A1422537769").build())
+        val adRequest = AdRequest.Builder().addTestDevice("B40037E56E469CB1C0885A1422537769").build()
         adView.loadAd(adRequest)
         val id = intent.getStringExtra("subTopicId")
         val ttl = intent.getStringExtra("title")

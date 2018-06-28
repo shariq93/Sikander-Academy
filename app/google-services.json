@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "245258230803",
+    "firebase_url": "https://sikanderacademy-59a6b.firebaseio.com",
+    "project_id": "sikanderacademy-59a6b",
+    "storage_bucket": "sikanderacademy-59a6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245258230803:android:5009b707110d8d47",
+        "android_client_info": {
+          "package_name": "app.com.sikanderacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245258230803-esvf6qe1ut8p1udpijdq6bo9rpvs2qv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGzNcwU-6GGqcl9FbGql3_HDk3dSlpAN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
